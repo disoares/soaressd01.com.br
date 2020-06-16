@@ -1,0 +1,47 @@
+@font-face {
+    font-family: Roboto-Thin;
+    src: url(../_fonts/Roboto/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../_fonts/Roboto/Roboto-Bold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.h2-contato{
+    font-family: Roboto;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+i{
+    font-size: 24pt;
+    margin-bottom: 10px;
+}
+
+.home-contato{
+    font-family: Roboto-Thin, sans-serif;
+    font-size: 24pt;
+    letter-spacing: 5px;
+    padding: 100px;
+}
+
+.contato-nome{
+    margin-top: 20px;
+}
+
+.home-portfolio{
+    padding: 30px;
+    margin-top: -30px;
+}
+
+.h2-portfolio{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
