@@ -8,40 +8,134 @@
     src: url(../_fonts/Roboto/Roboto-Bold.ttf);
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.h2-contato{
+.logo {
+    font-family: Roboto;
+    font-size: 18pt !important;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #ffffff;
+}
+
+.list-inline {
+    margin-top: 15px;
+}
+
+.list-inline-item {
+    margin-top: 8px;
+}
+
+.link-social{
+    color: #000;
+}
+
+.h2-contato {
     font-family: Roboto;
     letter-spacing: 5px;
     text-transform: uppercase;
 }
 
-i{
+i {
     font-size: 24pt;
     margin-bottom: 10px;
 }
 
-.home-contato{
+.home-contato {
     font-family: Roboto-Thin, sans-serif;
     font-size: 24pt;
     letter-spacing: 5px;
-    padding: 100px;
+    margin-top: 30px;
+    padding-bottom: 70px;
 }
 
-.contato-nome{
+.contato-nome {
     margin-top: 20px;
 }
 
-.home-portfolio{
+.home-portfolio {
     padding: 30px;
     margin-top: -30px;
 }
 
-.h2-portfolio{
+.h2-portfolio {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 3px;
 }
+
+.lista-porfolio {
+    list-style: none;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.lista-porfolio li {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.card {
+    width: 18rem;
+    border: none !important;
+    border-radius: 30px;
+}
+
+.card-img-top {
+    border-radius: 10px;
+}
+
+.btn{
+    background: #000 !important;
+    color: #ffffff !important;
+}
+
+.btn:hover{
+    box-shadow: 5px 3px 10px #888888;
+}
+
+@media screen and (max-width:480px) {
+
+    .home-contato {
+        font-family: Roboto-Thin, sans-serif;
+        font-size: 20pt;
+        letter-spacing: 5px;
+        padding: 100px;
+    }
+
+}
+
+@media (min-width:481px) and (max-width:767px) {
+
+    .h2-contato {
+        text-align: center;
+        font-size: 18pt;
+    }
+
+    .home-contato {
+        font-size: 17pt;
+        letter-spacing: 2px;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+    .h2-contato {
+        text-align: center;
+        font-size: 17pt;
+    }
+
+    .home-contato {
+        font-size: 15pt;
+        letter-spacing: 2px;
+    }
+
+}
+
+@media (min-width:992px) and (max-width:1199px) {}
+
+@media (min-width:1200px) {}
