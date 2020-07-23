@@ -29,8 +29,12 @@
     margin-top: 8px;
 }
 
-.link-social{
+.link-social {
     color: #000;
+}
+
+.article-contato {
+    min-height: calc(100vh - 83px);
 }
 
 .h2-contato {
@@ -48,8 +52,9 @@ i {
     font-family: Roboto-Thin, sans-serif;
     font-size: 24pt;
     letter-spacing: 5px;
-    margin-top: 30px;
+    margin-top: 140px;
     padding-bottom: 70px;
+    vertical-align: middle;
 }
 
 .contato-nome {
@@ -80,9 +85,18 @@ i {
 
 .card {
     width: 18rem;
+    border-radius: 5px;
+    transition: all ease-out .2s;
+    box-shadow: 0px 15px 40px 0px #ededed !important;
 }
 
-.card-header{
+.card:hover {
+    cursor: context-menu;
+    transition: all ease-out .2s;
+    transform: translateY(-10px) !important;
+}
+
+.card-header {
     background: none !important;
     border: none !important;
 }
@@ -91,13 +105,29 @@ i {
     max-height: 65px;
 }
 
-.btn{
+.btn {
     background: #000 !important;
     color: #ffffff !important;
 }
 
-.btn:hover{
+.btn:hover {
     box-shadow: 5px 3px 10px #888888;
+}
+
+.footer-sobre p {
+    font-family: Roboto-Regular, sans-serif;
+    line-height: 1.7rem;
+    text-align: justify;
+}
+
+footer a {
+    color: #000 !important;
+}
+
+footer a:hover,
+.link-social:hover {
+    color: rgb(45, 42, 53) !important;
+    text-decoration: none !important;
 }
 
 @media screen and (max-width:480px) {
