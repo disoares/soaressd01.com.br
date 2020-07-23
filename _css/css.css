@@ -80,12 +80,15 @@ i {
 
 .card {
     width: 18rem;
+}
+
+.card-header{
+    background: none !important;
     border: none !important;
-    border-radius: 30px;
 }
 
 .card-img-top {
-    border-radius: 10px;
+    max-height: 65px;
 }
 
 .btn{
