@@ -13,6 +13,10 @@
     padding: 0;
 }
 
+article {
+    min-height: calc(100vh - 83px);
+}
+
 .logo {
     font-family: Roboto;
     font-size: 18pt !important;
@@ -33,14 +37,14 @@
     color: #000;
 }
 
-.article-contato {
-    min-height: calc(100vh - 83px);
-}
-
 .h2-contato {
     font-family: Roboto;
     letter-spacing: 5px;
     text-transform: uppercase;
+}
+
+.h3-subtitle {
+    margin-bottom: 20px;
 }
 
 i {
@@ -74,8 +78,8 @@ i {
 
 .lista-porfolio {
     list-style: none;
-    margin-top: 40px;
-    text-align: center;
+    margin-top: 20px;
+    text-align: left;
 }
 
 .lista-porfolio li {
@@ -88,6 +92,7 @@ i {
     border-radius: 5px;
     transition: all ease-out .2s;
     box-shadow: 0px 15px 40px 0px #ededed !important;
+    text-align: center;
 }
 
 .card:hover {
@@ -102,7 +107,8 @@ i {
 }
 
 .card-img-top {
-    max-height: 65px;
+    max-width: 250px;
+    height: 55px;
 }
 
 .btn {
@@ -112,6 +118,11 @@ i {
 
 .btn:hover {
     box-shadow: 5px 3px 10px #888888;
+}
+
+footer {
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    margin-top: 40px;
 }
 
 .footer-sobre p {
@@ -134,9 +145,27 @@ footer a:hover,
 
     .home-contato {
         font-family: Roboto-Thin, sans-serif;
-        font-size: 20pt;
+        font-size: 13pt;
         letter-spacing: 5px;
-        padding: 100px;
+        padding: 30px;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .h2-contato {
+        margin-bottom: 40px;
+    }
+
+    .home-contato div {
+        margin-top: 20px;
+    }
+
+    .home-contato i {
+        width: 100%;
+    }
+
+    .portfolio {
+        margin-top: 10px;
     }
 
 }
