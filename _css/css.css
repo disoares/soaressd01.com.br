@@ -14,7 +14,7 @@
 }
 
 article {
-    min-height: calc(100vh - 83px);
+    min-height: calc(100vh - 150px);
 }
 
 .logo {
@@ -26,7 +26,8 @@ article {
 }
 
 .list-inline {
-    margin-top: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .list-inline-item {
@@ -34,7 +35,14 @@ article {
 }
 
 .link-social {
-    color: #000;
+    color: #fff;
+    transition: all ease-out .5s;
+}
+
+.link-social:hover {
+    color: rgb(222, 221, 226) !important;
+    text-decoration: none !important;
+    transition: all ease-out .5s;
 }
 
 .h2-contato {
@@ -45,6 +53,7 @@ article {
 
 .h3-subtitle {
     margin-bottom: 20px;
+    text-align: center;
 }
 
 i {
@@ -56,7 +65,7 @@ i {
     font-family: Roboto-Thin, sans-serif;
     font-size: 24pt;
     letter-spacing: 5px;
-    margin-top: 140px;
+    margin-top: 230px;
     padding-bottom: 70px;
     vertical-align: middle;
 }
@@ -74,6 +83,8 @@ i {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 3px;
+    margin-bottom: 30px;
+    font-weight: 700;
 }
 
 .lista-porfolio {
@@ -133,22 +144,34 @@ footer {
 
 footer a {
     color: #000 !important;
+    transition: all ease-out .5s;
 }
 
-footer a:hover,
-.link-social:hover {
-    color: rgb(45, 42, 53) !important;
+footer a:hover {
+    color: rgb(77, 76, 82) !important;
     text-decoration: none !important;
+    transition: all ease-out .5s;
+}
+
+.btn-whatsapp {
+    position: fixed;
+    bottom: 0px;
+    right: 20px;
+    color: #343A40;
+}
+
+.btn-whatsapp:hover{
+    color: #343A40;
 }
 
 @media screen and (max-width:480px) {
 
     .home-contato {
         font-family: Roboto-Thin, sans-serif;
-        font-size: 13pt;
+        font-size: 10pt;
         letter-spacing: 5px;
         padding: 30px;
-        margin-top: 0px;
+        margin-top: 130px;
         text-align: center;
     }
 
@@ -162,6 +185,10 @@ footer a:hover,
 
     .home-contato i {
         width: 100%;
+    }
+
+    .h2-portfolio {
+        margin-top: 30px;
     }
 
     .portfolio {
