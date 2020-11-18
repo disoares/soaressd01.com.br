@@ -98,39 +98,6 @@ i {
     margin-bottom: 20px;
 }
 
-.card {
-    width: 18rem;
-    border-radius: 5px;
-    transition: all ease-out .2s;
-    box-shadow: 0px 15px 40px 0px #ededed !important;
-    text-align: center;
-}
-
-.card:hover {
-    cursor: context-menu;
-    transition: all ease-out .2s;
-    transform: translateY(-10px) !important;
-}
-
-.card-header {
-    background: none !important;
-    border: none !important;
-}
-
-.card-img-top {
-    max-width: 250px;
-    height: 55px;
-}
-
-.btn {
-    background: #000 !important;
-    color: #ffffff !important;
-}
-
-.btn:hover {
-    box-shadow: 5px 3px 10px #888888;
-}
-
 footer {
     border-top: 1px solid rgba(0, 0, 0, .1);
     margin-top: 40px;
@@ -160,7 +127,7 @@ footer a:hover {
     color: #343A40;
 }
 
-.btn-whatsapp:hover{
+.btn-whatsapp:hover {
     color: #343A40;
 }
 

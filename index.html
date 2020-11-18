@@ -8,13 +8,10 @@
 
     <link rel="stylesheet" href="_css/css.css">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="_css/bootstrap.min.css">
 
-    <script src="https://kit.fontawesome.com/48f98c233a.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
+    <script src="_js/font-awesome.js"></script>
+    <script src="_js/jquery-3.5.1.min.js"></script>
 
 </head>
 
@@ -62,10 +59,89 @@
                 <div class="container">
 
                     <h2 class="h2-portfolio">Portfólio</h2>
-                    <h3 class="h3-subtitle">Websites</h3>
+                    <h3 class="h3-subtitle">Repositórios Relevantes</h3>
                     <div class="row" style="margin-bottom: 30px;">
 
-                        <div class="col-sm portfolio">
+                        <div id="accordion">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                                            aria-expanded="true" aria-controls="collapseOne">
+                                            Collapsible Group Item #1
+                                        </button>
+                                    </h5>
+                                </div>
+
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                                        sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                                        shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson
+                                        cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+                                        Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+                                        you probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" data-toggle="collapse"
+                                            data-target="#collapseTwo" aria-expanded="false"
+                                            aria-controls="collapseTwo">
+                                            Collapsible Group Item #2
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                                        sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                                        shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson
+                                        cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+                                        Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+                                        you probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" data-toggle="collapse"
+                                            data-target="#collapseThree" aria-expanded="false"
+                                            aria-controls="collapseThree">
+                                            Collapsible Group Item #3
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+                                        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+                                        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+                                        sunt aliqua put a bird on it squid single-origin coffee nulla assumenda
+                                        shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson
+                                        cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+                                        Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+                                        you probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <h3 class="h3-subtitle">Websites em Produção</h3>
+                    <div class="row">
+                        <!--<div class="col-sm portfolio">
                             <div class="card col-md-12 col-sm-12">
                                 <div class="card-header">
                                     <img class="card-img-top" src="_images/mulekedoidomemo.jpg"
@@ -76,7 +152,7 @@
                                         class="btn">Visitar</a>
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
                         <div class="col-sm portfolio" loading="lazy">
                             <div class="card col-md-12 col-sm-12">
                                 <div class="card-header">
@@ -86,23 +162,6 @@
                                 </div>
                                 <div class="card-body">
                                     <a href="https://b2c.srv.br/site/" target="_blank" class="btn">Visitar</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <h3 class="h3-subtitle">Apps Android</h3>
-                    <div class="row">
-                        <div class="col-sm">
-                            <div class="card col-md-12 col-sm-12">
-                                <div class="card-header">
-                                    <img class="card-img-top" src="_images/b2c.png"
-                                        alt="Logo B2C Suporte e Apoio a Logística"
-                                        title="Logo B2C Suporte e Apoio a Logística" style="width: 180px;">
-                                </div>
-                                <div class="card-body">
-                                    <a href="https://play.google.com/store/apps/details?id=b2c.srv.br.monitoramento&hl=pt_BR&showAllReviews=true"
-                                        target="_blank" class="btn">Visitar</a>
                                 </div>
                             </div>
                         </div>
@@ -160,8 +219,8 @@
     <!-- Footer -->
 
     <!-- WHATSAPP -->
-    <a id="btn-whatsapp" class="btn-whatsapp" href="https://wa.me/11982878151?text=Olá, gostaria de fazer um orçamento." target="_blank" data-toggle="tooltip"
-        data-placement="left" title="Converse Comigo">
+    <a id="btn-whatsapp" class="btn-whatsapp" href="https://wa.me/11982878151?text=Olá, gostaria de fazer um orçamento."
+        target="_blank" data-toggle="tooltip" data-placement="left" title="Converse Comigo">
         <i class="fab fa-whatsapp" style="font-size: 50px;"></i>
     </a>
 
@@ -175,12 +234,8 @@
         document.getElementById("din-ano").innerText = new Date().getFullYear();
     </script>
 
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-    </script>
+    <script src="_js/popper.min.js"></script>
+    <script src="_js/bootstrap.min.js"></script>
 
 </body>
 
