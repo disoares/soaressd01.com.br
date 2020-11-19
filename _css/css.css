@@ -87,15 +87,34 @@ i {
     font-weight: 700;
 }
 
-.lista-porfolio {
-    list-style: none;
-    margin-top: 20px;
-    text-align: left;
+.list-repositorios {
+    padding: 10px;
 }
 
-.lista-porfolio li {
-    display: inline-block;
-    margin-bottom: 20px;
+.list-repositorios li a {
+    color: #000;
+}
+
+.card-header-repositorios {
+    background: #343A40 !important;
+}
+
+.card-header-repositorios h5 button {
+    color: #fff !important;
+    font-size: 15pt;
+}
+
+.card-header-repositorios h5 button:hover {
+    text-decoration: none;
+}
+
+.icon-header-repositorios{
+    font-size: 13pt;
+}
+
+.btn-visitar a{
+    background: #343A40 !important;
+    color: #fff !important;
 }
 
 footer {
