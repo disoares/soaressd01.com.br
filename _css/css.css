@@ -118,7 +118,6 @@ i {
 }
 
 footer {
-    border-top: 1px solid rgba(0, 0, 0, .1);
     margin-top: 40px;
 }
 
@@ -144,6 +143,7 @@ footer a:hover {
     bottom: 0px;
     right: 20px;
     color: #343A40;
+    z-index: 99999999999;
 }
 
 .btn-whatsapp:hover {
